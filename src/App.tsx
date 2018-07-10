@@ -1,9 +1,12 @@
 import * as React from 'react';
+import { ColorPicker } from './color-picker';
 
 class App extends React.Component {
   public render() {
     return (
-      <div>Hello, World!</div>
+      <div>
+        <ColorPicker />
+      </div>
     );
   }
 }
