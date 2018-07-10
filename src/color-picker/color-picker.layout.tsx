@@ -8,6 +8,10 @@ interface ColorPickerLayoutProps {
   onColorSelect: (color: string) => () => void;
 }
 
+/**
+* Layout is a stateless component simulating HTML
+* @param props The values and functions provided by the stateful component
+*/
 export default (props: ColorPickerLayoutProps) => (
   <Container>
 

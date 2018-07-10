@@ -4,7 +4,10 @@ import { default as ColorPickerComponent } from './color-picker.component';
 
 import { default as ColorsService } from './colors.service';
 
-export const ColorPicker = () => (
+/**
+* Provide the component with injected services
+*/
+export const ColorPicker = (): React.ReactNode => (
   <ColorPickerComponent
     colorsService={new ColorsService()}
   />

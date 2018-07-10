@@ -1,5 +1,9 @@
 export default class ColorsService {
 
+  /**
+  * Provide the colors to be used
+  * @returns The HEX colors as a Promise resolving to a list of strings
+  */
   public getColors(): Promise<string[]> {
     return new Promise((resolve: (value?: string[]) => void) => {
       resolve([
